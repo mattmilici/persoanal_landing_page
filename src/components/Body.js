@@ -1,5 +1,6 @@
 import React from "react"
 import AboutMe from "../images/aboutme.png"
+import Title from "./Title"
 
 function Body() {
     return (
@@ -9,7 +10,7 @@ function Body() {
                     <img className="h-64 w-auto md:height-auto m-auto" src={AboutMe} alt="" />
                 </div>
                 <div id="text-header" className="w-full md:w-7/12 content-center self-center text-white">
-                    <h1 id="about-me" className="text-4xl font-bold my-3"><i className="fas fa-address-card"></i> About Me</h1>
+                    <Title>About Me</Title>
                     <div className="text-left mr-3 text-lg leading-normal md:text-loose">
                         <p className="mb-2">Hey, What's up!</p>
                         <p className="mb-2">My name is Matt Milici and welcome to my personal site!</p>

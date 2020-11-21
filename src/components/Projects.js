@@ -4,13 +4,15 @@ import Popcorn from "../images/popcorn.png"
 import Seeds from "../images/seeds.png"
 import Weather from "../images/weather.png"
 
+import Title from "./Title"
+
 
 function Projects() {
     return (
         <div className="bg-black">
             <div>
                 <div className="text-center md:text-left mt-8 mt-8 my-3">
-                    <h1 id="projects" className="text-4xl font-bold"><i className="fab fa-github"></i> Projects</h1>
+                    <Title>Projects</Title>
                     <a className="text-lg font-normal" href="https://github.com/mmilici-star">Github Repo</a>
                 </div>
 
@@ -39,7 +41,7 @@ function Projects() {
                             <div className="text-black flex-1 py-1">
                                 <div className="rounded text-2xl font-bold w-3/4 top-0">Seeds</div>
                                 <div className="">
-                                    <div className="rounded">Happiness tracker that helps identifty key drivers that impact your day!</div>
+                                    <div className="rounded">Happiness tracker that helps identifty key drivers that impact your day so you can focus on what matters most in your life!</div>
                                     <div className="mt-4 rounded flex justify-between">
                                         <a className="text-blue-400 w-1/2 font-bold" href="https://github.com/Iansachs1/Seeds">Github Repo</a>
                                         <a className="text-blue-400 w-1/2 text-right font-bold" href="https://hidden-caverns-84141.herokuapp.com/">Live App</a>
@@ -70,9 +72,9 @@ function Projects() {
                         <div className="flex space-x-4">
                             <img className="rounded-full border-2 border-white bg-gray-400 h-12 w-12" src={Weather} />
                             <div className="text-black flex-1 py-1">
-                                <div className="rounded text-2xl font-bold w-3/4 top-0">Weather App</div>
+                                <div className="rounded text-2xl font-bold w-3/4 top-0">Travel Agent Page</div>
                                 <div className="">
-                                    <div className="rounded">Get your 5 day forecast for any city in the world through the Open Weather API.</div>
+                                    <div className="rounded">Custom Vacations by Veronica is a website I built and deployed for a local travel agent kicking off her own business.</div>
                                     <div className="mt-4 rounded flex justify-between">
                                         <a className="text-blue-400 w-1/2 font-bold" href="https://github.com/mmilici-star/weather-app">Github Repo</a>
                                         <a className="text-blue-400 w-1/2 text-right font-bold" href="https://mmilici-star.github.io/weather-app/">Live App</a>

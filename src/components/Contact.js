@@ -1,10 +1,10 @@
 import React from "react"
-
+import Title from "./Title"
 
 function Divider() {
     return (
         <div className="bg-black">
-            <h1 id="contact-me" className="text-4xl mt-8 font-bold mt-10 text-center md:text-left mb-3"><i className="fas fa-id-card-alt"></i> Contact Me</h1>
+            <Title>Contact Me</Title>
             <form method="post" name="myemailform" action="" className="w-full max-w-4xl mt-3 text m-auto">
                 <div className="md:flex md:items-center mb-6">
                     <div className="md:w-1/3">
