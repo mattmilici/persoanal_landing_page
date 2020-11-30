@@ -22,8 +22,8 @@
     "scripts": {
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
-        "build:css": "tailwind build src/styles/style.css -o src/index.css",
-        "watch:css": "tailwind build src/styles/style.css -o src/index.css -w",
+        "build:css": "tailwind build src/index.css -o src/index.css",
+        "watch:css": "tailwind build src/index.css -o src/index.css -w",
         "start": "npm run watch:css & react-scripts start",
         "build": "npm run build:css && react-scripts build",
         "test": "react-scripts test",
