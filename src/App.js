@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar"
 import Header from "./components/Header"
 import Body from "./components/Body"
 import Contact from "./components/Contact"
-import Articles from "./components/Articles"
+import Articles2 from "./components/Articles2"
 import Projects from "./components/Projects"
 
 function App() {
@@ -21,10 +21,9 @@ function App() {
         <Divider />
         <Projects />
         <Divider />
-        <Articles />
+        <Articles2 />
         <Divider />
         <Contact />
-
       </div>
     </div>
   );

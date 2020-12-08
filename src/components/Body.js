@@ -4,13 +4,13 @@ import Title from "./Title"
 
 function Body() {
     return (
-        <div className="bg-black">
+        <div id="about" className="bg-black">
+            <Title>About Me</Title>
             <div className="text-center md:text-left mt-8 my-3 md:flex md:flex-around md:flex-row-reverse">
                 <div className="w-full md:w-5/12 flex content-center">
                     <img className="h-64 w-auto md:height-auto m-auto" src={AboutMe} alt="" />
                 </div>
                 <div id="text-header" className="w-full md:w-7/12 content-center self-center text-white">
-                    <Title>About Me</Title>
                     <div className="text-left mr-3 text-lg leading-normal md:text-loose">
                         <p className="mb-2">Hey, What's up!</p>
                         <p className="mb-2">My name is Matt Milici and welcome to my personal site!</p>

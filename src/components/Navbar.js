@@ -22,22 +22,22 @@ function Navbar() {
                 <div id="mobileDropDown" className="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto inline">
                     <div className="text-sm lg:flex-grow">
                         <div className="lg:flex lg:justify-center lg:w-6/12 lg:m-auto text-lg font-normal">
-                            <a href="about-me" className="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50 ">
+                            <a href="#about" className="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50 ">
                                 About Me
 						</a>
-                            <a href="projects" className="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50">
+                            <a href="#projects" className="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50">
                                 Projects
 						</a>
                             <a href="#articles" className="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50">
                                 Articles
 						</a>
-                            <a href="#Resume" className="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50">
+                            <a href="#articles" className="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50">
                                 Resume
 						</a>
                         </div>
                     </div>
                     <div className="lg:flex lg:justify-end items-center flex-shrink-0 text-lg font-normal">
-                        <a href="#contact-me" className="text-right block mt-4 lg:mr-4 lg:inline-block lg:mt-0 ">
+                        <a href="#contact" className="text-right block mt-4 lg:mr-4 lg:inline-block lg:mt-0 ">
                             Contact Me
                 </a>
 

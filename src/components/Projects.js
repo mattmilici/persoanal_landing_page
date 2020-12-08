@@ -9,11 +9,11 @@ import Title from "./Title"
 
 function Projects() {
     return (
-        <div className="bg-black">
+        <div id="projects" className="bg-black">
             <div>
-                <div className="text-center md:text-left mt-8 mt-8 my-3">
+                <div className="text-center  mt-8 mt-8 my-3">
                     <Title>Projects</Title>
-                    <a className="text-lg font-normal" href="https://github.com/mmilici-star">Github Repo</a>
+                    <a className="text-lg text-center font-normal" href="https://github.com/mattmilici">Github</a>
                 </div>
 
                 <div className="flex flex-wrap justify-around">
@@ -26,8 +26,8 @@ function Projects() {
                                 <div className="">
                                     <div className="rounded">Test your movie knowledge with Buff by playing a computer in the classNameic movie game everyone loves!</div>
                                     <div className="mt-4 rounded flex justify-between">
-                                        <a className="text-blue-400 w-1/2 font-bold" href="https://github.com/mmilici-star/movieQuiz">Github Repo</a>
-                                        <a className="text-blue-400 w-1/2 text-right font-bold" href="https://mmilici-star.github.io/movieQuiz/dist/index.html">Live App</a>
+                                        <a className="text-blue-400 w-1/2 font-bold" href="https://github.com/mattmilici/movieQuiz">Github Repo</a>
+                                        <a className="text-blue-400 w-1/2 text-right font-bold" href="https://github.com/mattmilici.github.io/movieQuiz/dist/index.html">Live App</a>
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@ function Projects() {
                                 <div className="">
                                     <div className="rounded">Happiness tracker that helps identifty key drivers that impact your day so you can focus on what matters most in your life!</div>
                                     <div className="mt-4 rounded flex justify-between">
-                                        <a className="text-blue-400 w-1/2 font-bold" href="https://github.com/Iansachs1/Seeds">Github Repo</a>
+                                        <a className="text-blue-400 w-1/2 font-bold" href="https://github.com//Iansachs1/Seeds">Github Repo</a>
                                         <a className="text-blue-400 w-1/2 text-right font-bold" href="https://hidden-caverns-84141.herokuapp.com/">Live App</a>
                                     </div>
                                 </div>
@@ -57,9 +57,9 @@ function Projects() {
                             <div className="text-black flex-1 py-1">
                                 <div className="rounded text-2xl font-bold w-3/4 top-0">Car Inventory Page</div>
                                 <div className="">
-                                    <div className="rounded">Sample landing page for a car dealership. Modern and dynamic page built with Tailwind</div>
+                                    <div className="rounded">Sample landing page for a car dealership. Modern, simple and dynamic page built using Tailwind styling. </div>
                                     <div className="mt-4 rounded flex justify-between">
-                                        <a className="text-blue-400 w-1/2 font-bold" href="https://github.com/mmilici-star/idealMotors">Github Repo</a>
+                                        <a className="text-blue-400 w-1/2 font-bold" href="https://github.com/mattmilici/idealMotors">Github Repo</a>
                                         <a className="text-blue-400 w-1/2 text-right font-bold" href="https://mmilici-star.github.io/idealMotors/public/">Live App</a>
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@ function Projects() {
                                     <div className="rounded">Custom Vacations by Veronica is a website I built and deployed for a local travel agent kicking off her own business.</div>
                                     <div className="mt-4 rounded flex justify-between">
                                         <a className="text-blue-400 w-1/2 font-bold" href="https://github.com/mmilici-star/weather-app">Github Repo</a>
-                                        <a className="text-blue-400 w-1/2 text-right font-bold" href="https://mmilici-star.github.io/weather-app/">Live App</a>
+                                        <a className="text-blue-400 w-1/2 text-right font-bold" href="https://www.customvacationsbyveronica.com/">Live App</a>
                                     </div>
                                 </div>
                             </div>
