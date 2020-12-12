@@ -25,16 +25,16 @@ function Header() {
 					<p id="animated Text" className="text-2xl font-bold">
 						I am a{" "}
 						<Typical
-							className="text-yellow"
+							className=" text-3xl"
 							loop={Infinity}
-							wrapper="b"
+							wrapper="r"
 							steps={[
 								" web developer",
-								4500,
+								1000,
 								" designer",
-								4500,
+								1000,
 								" creator",
-								4500,
+								1000,
 							]}
 						/>
 					</p>
