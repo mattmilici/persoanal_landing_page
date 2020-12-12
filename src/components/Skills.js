@@ -21,7 +21,7 @@ function Skills() {
 						<div class="flex-shrink-0 flex items-center text-center justify-center w-16 bg-blue-600 text-white text-sm font-medium rounded-l-md p-2">
 							<FontAwesomeIcon icon={faReact} size="3x" />
 						</div>
-						<div class="border-gray-200 bg-white rounded-r-md text-center m-autow-32 px-10 flex items-center text-lg text-gray-900 font-medium hover:text-gray-600">
+						<div class="border-gray-200 bg-white rounded-r-md w-32 px-10 flex justify-center items-center text-lg text-gray-900 font-medium hover:text-gray-600">
 							React
 						</div>
 					</li>
@@ -29,7 +29,7 @@ function Skills() {
 						<div class="flex-shrink-0 flex items-center text-center justify-center w-16 bg-blue-600 text-white text-sm font-medium rounded-l-md p-2">
 							<FontAwesomeIcon icon={faNodeJs} size="3x" />
 						</div>
-						<div class="border-gray-200 bg-white rounded-r-md text-center m-autow-32 px-10 flex items-center text-lg text-gray-900 font-medium hover:text-gray-600">
+						<div class="border-gray-200 bg-white rounded-r-md text-center w-32 px-10 flex justify-center items-center text-lg text-gray-900 font-medium hover:text-gray-600">
 							Node
 						</div>
 					</li>
@@ -37,7 +37,7 @@ function Skills() {
 						<div class="flex-shrink-0 flex items-center text-center justify-center w-16 bg-blue-600 text-white text-sm font-medium rounded-l-md p-2">
 							<FontAwesomeIcon icon={faJsSquare} size="3x" />
 						</div>
-						<div class="border-gray-200 bg-white rounded-r-md text-center m-autow-32 px-10 flex items-center text-lg text-gray-900 font-medium hover:text-gray-600">
+						<div class="border-gray-200 bg-white rounded-r-md w-32 px-10 flex justify-center items-center text-lg text-gray-900 font-medium hover:text-gray-600">
 							Javascript
 						</div>
 					</li>
@@ -45,7 +45,7 @@ function Skills() {
 						<div class="flex-shrink-0 flex items-center text-center justify-center w-16 bg-blue-600 text-white text-sm font-medium rounded-l-md p-2">
 							<FontAwesomeIcon icon={faCss3Alt} size="3x" />
 						</div>
-						<div class="border-gray-200 bg-white rounded-r-md text-center m-autow-32 px-10 flex items-center text-lg text-gray-900 font-medium hover:text-gray-600">
+						<div class="border-gray-200 bg-white rounded-r-md text-center  w-32 px-10 flex justify-center items-center text-lg text-gray-900 font-medium hover:text-gray-600">
 							CSS
 						</div>
 					</li>
@@ -53,7 +53,7 @@ function Skills() {
 						<div class="flex-shrink-0 flex items-center text-center justify-center w-16 bg-blue-600 text-white text-sm font-medium rounded-l-md p-2">
 							<FontAwesomeIcon icon={faDatabase} size="3x" />
 						</div>
-						<div class="border-gray-200 bg-white rounded-r-md text-center m-autow-32 px-10 flex items-center text-lg text-gray-900 font-medium hover:text-gray-600">
+						<div class="border-gray-200 bg-white rounded-r-md text-center  w-32 px-10 flex justify-center items-center text-lg text-gray-900 font-medium hover:text-gray-600">
 							MySQL
 						</div>
 					</li>
@@ -61,7 +61,7 @@ function Skills() {
 						<div class="flex-shrink-0 flex items-center text-center justify-center w-16 bg-blue-600 text-white text-sm font-medium rounded-l-md p-2">
 							<FontAwesomeIcon icon={faDatabase} size="3x" />
 						</div>
-						<div class="border-gray-200 bg-white rounded-r-md text-center m-autow-32 px-10 flex items-center text-lg text-gray-900 font-medium hover:text-gray-600">
+						<div class="border-gray-200 bg-white rounded-r-md text-center  w-32 px-10 flex justify-center items-center text-lg text-gray-900 font-medium hover:text-gray-600">
 							MongoDB
 						</div>
 					</li>
@@ -69,7 +69,7 @@ function Skills() {
 						<div class="flex-shrink-0 flex items-center text-center justify-center w-16 bg-blue-600 text-white text-sm font-medium rounded-l-md p-2">
 							<FontAwesomeIcon icon={faPaintRoller} size="3x" />
 						</div>
-						<div class="border-gray-200 bg-white rounded-r-md text-center m-autow-32 px-10 flex items-center text-lg text-gray-900 font-medium hover:text-gray-600">
+						<div class="border-gray-200 bg-white rounded-r-md text-center  w-32 px-10 flex justify-center items-center text-lg text-gray-900 font-medium hover:text-gray-600">
 							Tailwind
 						</div>
 					</li>
@@ -77,7 +77,7 @@ function Skills() {
 						<div class="flex-shrink-0 flex items-center text-center justify-center w-16 bg-blue-600 text-white text-sm font-medium rounded-l-md p-2">
 							<FontAwesomeIcon icon={faPython} size="3x" />
 						</div>
-						<div class="border-gray-200 bg-white rounded-r-md text-center m-autow-32 px-10 flex items-center text-lg text-gray-900 font-medium hover:text-gray-600">
+						<div class="border-gray-200 bg-white rounded-r-md text-center  w-32 px-10 flex justify-center items-center text-lg text-gray-900 font-medium hover:text-gray-600">
 							Python
 						</div>
 					</li>

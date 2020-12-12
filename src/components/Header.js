@@ -40,12 +40,17 @@ function Header() {
 					</p>
 					<div className="mt-4">
 						<a
+							target="_blank"
 							className="m-3"
 							href="https://www.linkedin.com/in/matt-milici-87b74a111/"
 						>
 							<FontAwesomeIcon icon={faLinkedinIn} size="3x" />
 						</a>
-						<a className="m-3" href="https://github.com/mattmilici">
+						<a
+							target="_blank"
+							className="m-3"
+							href="https://github.com/mattmilici"
+						>
 							<FontAwesomeIcon icon={faGithub} size="3x" />
 						</a>
 					</div>

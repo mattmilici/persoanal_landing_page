@@ -3,25 +3,25 @@ import Title from "./Title";
 
 function Divider() {
 	return (
-		<div id="contact" className="bg-black">
+		<div id="contact" className="bg-black w-2/3 m-auto">
 			<Title>Contact Me</Title>
 			<form
 				method="post"
 				name="myemailform"
 				action=""
-				className="w-full max-w-4xl mt-3 text text-center m-auto"
+				className="w-2/3 max-w-4xl mt-3 text-center m-auto"
 			>
+				<div className="">
+					<label
+						for="name"
+						className="block text-gray-500 font-bold text-left mb-1 mb-2 pr-4"
+						for="inline-full-name"
+					>
+						Full Name
+					</label>
+				</div>
 				<div className="md:flex md:items-center mb-6">
-					<div className="md:w-1/3">
-						<label
-							for="name"
-							className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
-							for="inline-full-name"
-						>
-							Full Name
-						</label>
-					</div>
-					<div className="md:w-2/3">
+					<div className="md:w-full">
 						<input
 							className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
 							id="inline-full-name"
@@ -31,17 +31,17 @@ function Divider() {
 						/>
 					</div>
 				</div>
+				<div className="md:w-1/3">
+					<label
+						for="email"
+						className="block text-gray-500 font-bold text-left mb-1 mb-2 pr-4"
+						for="inline-full-name"
+					>
+						Email
+					</label>
+				</div>
 				<div className="md:flex md:items-center mb-6">
-					<div className="md:w-1/3">
-						<label
-							for="email"
-							className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
-							for="inline-full-name"
-						>
-							Email
-						</label>
-					</div>
-					<div className="md:w-2/3">
+					<div className="md:w-full">
 						<input
 							name="email"
 							className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
@@ -51,18 +51,15 @@ function Divider() {
 						/>
 					</div>
 				</div>
-
+				<label
+					for="message"
+					className="block text-gray-500 font-bold text-left mb-1 pr-4 mb-2"
+					for="inline-full-name"
+				>
+					Description
+				</label>
 				<div className="md:flex md:items-center mb-6">
-					<div className="md:w-1/3">
-						<label
-							for="message"
-							className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
-							for="inline-full-name"
-						>
-							Description
-						</label>
-					</div>
-					<div className="md:w-2/3">
+					<div className="md:w-full">
 						<textarea
 							name="message"
 							className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
@@ -71,17 +68,14 @@ function Divider() {
 						></textarea>
 					</div>
 				</div>
-				<div className="md:flex md:items-center">
-					<div className="md:w-1/3"></div>
-					<div className="m-auto">
-						<button
-							className="shadow bg-blue-600 hover:bg-blue-200 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded text-center"
-							name="submit"
-							type="submit"
-						>
-							Send
-						</button>
-					</div>
+				<div className="flex justify-center items-center">
+					<button
+						className="shadow bg-blue-600 hover:bg-blue-200 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded text-center"
+						name="submit"
+						type="submit"
+					>
+						Send
+					</button>
 				</div>
 			</form>
 		</div>

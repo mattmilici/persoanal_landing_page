@@ -39,12 +39,14 @@ function Projects() {
 									</div>
 									<div className="mt-4 rounded flex justify-between">
 										<a
+											target="_blank"
 											className="text-blue-600 w-1/2 font-bold"
 											href="https://github.com/mmilici-star/weather-app"
 										>
 											Github Repo
 										</a>
 										<a
+											target="_blank"
 											className="text-blue-600 w-1/2 text-right font-bold"
 											href="https://www.customvacationsbyveronica.com/"
 										>
@@ -73,12 +75,14 @@ function Projects() {
 									</div>
 									<div className="mt-4 rounded flex justify-between">
 										<a
+											target="_blank"
 											className="text-blue-600 w-1/2 font-bold"
 											href="https://github.com//Iansachs1/Seeds"
 										>
 											Github Repo
 										</a>
 										<a
+											target="_blank"
 											className="text-blue-600 w-1/2 text-right font-bold"
 											href="https://hidden-caverns-84141.herokuapp.com/"
 										>
@@ -106,12 +110,14 @@ function Projects() {
 									</div>
 									<div className="mt-4 rounded flex justify-between">
 										<a
+											target="_blank"
 											className="text-blue-600 w-1/2 font-bold"
 											href="https://github.com/mattmilici/movieQuiz"
 										>
 											Github Repo
 										</a>
 										<a
+											target="_blank"
 											className="text-blue-600 w-1/2 text-right font-bold"
 											href="https://github.com/mattmilici.github.io/movieQuiz/dist/index.html"
 										>
@@ -140,12 +146,14 @@ function Projects() {
 									</div>
 									<div className="mt-4 rounded flex justify-between">
 										<a
+											target="_blank"
 											className="text-blue-600 w-1/2 font-bold"
 											href="https://github.com/mattmilici/idealMotors"
 										>
 											Github Repo
 										</a>
 										<a
+											target="_blank"
 											className="text-blue-600 w-1/2 text-right font-bold"
 											href="https://mmilici-star.github.io/idealMotors/public/"
 										>
