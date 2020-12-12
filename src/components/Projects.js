@@ -39,13 +39,13 @@ function Projects() {
 									</div>
 									<div className="mt-4 rounded flex justify-between">
 										<a
-											className="text-blue-400 w-1/2 font-bold"
+											className="text-blue-600 w-1/2 font-bold"
 											href="https://github.com/mmilici-star/weather-app"
 										>
 											Github Repo
 										</a>
 										<a
-											className="text-blue-400 w-1/2 text-right font-bold"
+											className="text-blue-600 w-1/2 text-right font-bold"
 											href="https://www.customvacationsbyveronica.com/"
 										>
 											Live App
@@ -73,13 +73,13 @@ function Projects() {
 									</div>
 									<div className="mt-4 rounded flex justify-between">
 										<a
-											className="text-blue-400 w-1/2 font-bold"
+											className="text-blue-600 w-1/2 font-bold"
 											href="https://github.com//Iansachs1/Seeds"
 										>
 											Github Repo
 										</a>
 										<a
-											className="text-blue-400 w-1/2 text-right font-bold"
+											className="text-blue-600 w-1/2 text-right font-bold"
 											href="https://hidden-caverns-84141.herokuapp.com/"
 										>
 											Live App
@@ -106,13 +106,13 @@ function Projects() {
 									</div>
 									<div className="mt-4 rounded flex justify-between">
 										<a
-											className="text-blue-400 w-1/2 font-bold"
+											className="text-blue-600 w-1/2 font-bold"
 											href="https://github.com/mattmilici/movieQuiz"
 										>
 											Github Repo
 										</a>
 										<a
-											className="text-blue-400 w-1/2 text-right font-bold"
+											className="text-blue-600 w-1/2 text-right font-bold"
 											href="https://github.com/mattmilici.github.io/movieQuiz/dist/index.html"
 										>
 											Live App
@@ -140,13 +140,13 @@ function Projects() {
 									</div>
 									<div className="mt-4 rounded flex justify-between">
 										<a
-											className="text-blue-400 w-1/2 font-bold"
+											className="text-blue-600 w-1/2 font-bold"
 											href="https://github.com/mattmilici/idealMotors"
 										>
 											Github Repo
 										</a>
 										<a
-											className="text-blue-400 w-1/2 text-right font-bold"
+											className="text-blue-600 w-1/2 text-right font-bold"
 											href="https://mmilici-star.github.io/idealMotors/public/"
 										>
 											Live App

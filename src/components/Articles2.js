@@ -21,7 +21,7 @@ function Articles2() {
 									alt="article cover"
 								/>
 							</div>
-							<div className="flex-1 bg-white p-6 flex flex-col justify-between">
+							<div className="flex-1 bg-gradient-to-l from-gray-400 via-gray-350 to-gray-300 p-6 flex flex-col justify-between">
 								<div className="flex-1">
 									<p className="text-sm font-medium text-indigo-600">
 										<a href="#" className="hover:underline">
@@ -65,7 +65,7 @@ function Articles2() {
 							<div class="flex-shrink-0">
 								<img class="h-48 w-full object-cover" src={Dennis2} alt="" />
 							</div>
-							<div className="flex-1 bg-white p-6 flex flex-col justify-between">
+							<div className="flex-1 bg-gradient-to-l from-gray-400 via-gray-350 to-gray-300 p-6 flex flex-col justify-between">
 								<div className="flex-1">
 									<p className="text-sm font-medium text-indigo-600">
 										<a
@@ -108,7 +108,7 @@ function Articles2() {
 							<div class="flex-shrink-0">
 								<img class="h-48 w-full object-cover" src={Dennis2} alt="" />
 							</div>
-							<div className="flex-1 bg-white p-6 flex flex-col justify-between">
+							<div className="flex-1  bg-gradient-to-l from-gray-400 via-gray-350 to-gray-300 p-6 flex flex-col justify-between">
 								<div className="flex-1">
 									<p className="text-sm font-medium text-indigo-600">
 										<a

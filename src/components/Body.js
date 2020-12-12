@@ -34,7 +34,7 @@ function Body() {
 					</div>
 					<div className="animate-bounce mt-10">
 						<a
-							className="animate-bounce bg-gradient-to-l from-orange-400 via-red-500 to-pink-500 rounded-full p-2"
+							className="animate-bounce bg-gradient-to-l from-blue-400 via-blue-500 to-blue-500 rounded-full p-2"
 							href="./images/Matthew_B_Milici_Resume.pdf"
 							download
 						>

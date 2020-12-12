@@ -8,6 +8,7 @@ import Body from "./components/Body";
 import Contact from "./components/Contact";
 import Articles2 from "./components/Articles2";
 import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
 function App() {
 	return (
@@ -17,6 +18,8 @@ function App() {
 				<Header />
 				<Divider />
 				<Body />
+				<Divider />
+				<Skills />
 				<Divider />
 				<Projects />
 				<Divider />
