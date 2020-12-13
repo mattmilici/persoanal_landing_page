@@ -6,7 +6,7 @@ function Divider() {
 		<div id="contact" className="bg-blackm-auto">
 			<Title>Contact Me</Title>
 			<form
-				action="POST"
+				method="POST"
 				data-netlify="true"
 				netlify
 				name="myemailform"
