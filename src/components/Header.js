@@ -44,14 +44,14 @@ function Header() {
 							className="m-3"
 							href="https://www.linkedin.com/in/matt-milici-87b74a111/"
 						>
-							<FontAwesomeIcon icon={faLinkedinIn} size="2x" />
+							<FontAwesomeIcon icon={faLinkedinIn} size="lg" />
 						</a>
 						<a
 							target="_blank"
 							className="m-3"
 							href="https://github.com/mattmilici"
 						>
-							<FontAwesomeIcon icon={faGithub} size="2x" />
+							<FontAwesomeIcon icon={faGithub} size="lg" />
 						</a>
 					</div>
 				</div>

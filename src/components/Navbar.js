@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Navbar() {
+	const [navbarOpen, setNavbarOpen] = React.useState(false);
+
 	return (
 		<div className="bg-black text-white">
 			<nav className="flex items-center justify-between flex-wrap  p-6">
@@ -13,6 +15,7 @@ function Navbar() {
 					<button
 						id="dropDownIcon"
 						className="flex items-center px-3 py-2 text-white"
+						onClick={() => setNavbarOpen(!navbarOpen)}
 					>
 						<svg
 							className="fill-current h-3 w-3"
@@ -24,45 +27,48 @@ function Navbar() {
 						</svg>
 					</button>
 				</div>
+
 				<div
 					id="mobileDropDown"
-					className="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto inline"
+					className=" w-full block flex-grow lg:flex lg:items-center lg:w-auto inline"
 				>
-					<div className="text-sm lg:flex-grow">
-						<div className="lg:flex lg:justify-center lg:w-6/12 lg:m-auto text-lg font-normal">
+					<div className={navbarOpen ? "md:hidden" : "hidden"}>
+						<div className="text-sm lg:flex-grow">
+							<div className="lg:flex lg:justify-center lg:w-6/12 lg:m-auto text-lg font-normal">
+								<a
+									href="#about"
+									className="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50 "
+								>
+									About Me
+								</a>
+								<a
+									href="#projects"
+									className="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50"
+								>
+									Projects
+								</a>
+								<a
+									href="#articles"
+									className="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50"
+								>
+									Articles
+								</a>
+								<a
+									href="#about"
+									className="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50"
+								>
+									Resume
+								</a>
+							</div>
+						</div>
+						<div className="lg:flex lg:justify-end items-center flex-shrink-0 text-lg font-normal">
 							<a
-								href="#about"
-								className="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50 "
+								href="#contact"
+								className="text-right block mt-4 lg:mr-4 lg:inline-block lg:mt-0 "
 							>
-								About Me
-							</a>
-							<a
-								href="#projects"
-								className="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50"
-							>
-								Projects
-							</a>
-							<a
-								href="#articles"
-								className="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50"
-							>
-								Articles
-							</a>
-							<a
-								href="#about"
-								className="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50"
-							>
-								Resume
+								Contact Me
 							</a>
 						</div>
-					</div>
-					<div className="lg:flex lg:justify-end items-center flex-shrink-0 text-lg font-normal">
-						<a
-							href="#contact"
-							className="text-right block mt-4 lg:mr-4 lg:inline-block lg:mt-0 "
-						>
-							Contact Me
-						</a>
 					</div>
 				</div>
 			</nav>
