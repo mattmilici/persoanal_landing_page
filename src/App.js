@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 
 function App() {
 	return (
-		<div className="bg-black overflow-x overflow-y">
+		<div className="bg-black overflow-x-auto">
 			<div className="bg-black text-white px-4 md:px-20 pb-16">
 				<Navbar />
 				<Header />
