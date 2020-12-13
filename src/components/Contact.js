@@ -6,9 +6,10 @@ function Divider() {
 		<div id="contact" className="bg-blackm-auto">
 			<Title>Contact Me</Title>
 			<form
-				method="post"
+				action="POST"
+				data-netlify="true"
+				netlify
 				name="myemailform"
-				action=""
 				className="w-full max-w-4xl mt-3 text-center m-auto"
 			>
 				<div className="">
@@ -62,6 +63,7 @@ function Divider() {
 					<div className="md:w-full">
 						<textarea
 							name="message"
+							type="text"
 							className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
 							placeholder="Send me a note!"
 							rows="6"
