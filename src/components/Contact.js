@@ -1,14 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import Title from "./Title";
 
-function Divider() {
+function Contact() {
+	const [State, setState] = React.useState(false);
+
+	function encode(data) {
+		return Object.keys(data)
+			.map(
+				(key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+			)
+			.join("&");
+	}
+
+	function handleChange(e) {
+		setState({ [e.target.name]: e.target.value });
+	}
+
+	function handleSubmit(e) {
+		fetch("/", {
+			method: "POST",
+			headers: { "Content-Type": "application/x-www-form-urlencoded" },
+			body: encode({ "form-name": "contact", ...State }),
+		})
+			.then(() => alert("Success!"))
+			.catch((error) => alert(error));
+
+		e.preventDefault();
+	}
+
 	return (
 		<div id="contact" className="bg-blackm-auto">
 			<Title>Contact Me</Title>
 			<form
-				netlify-honeypot="bot-field"
-				method="POST"
-				action="POST"
+				onSubmit={handleSubmit}
 				data-netlify="true"
 				netlify
 				name="myemailform"
@@ -28,7 +52,9 @@ function Divider() {
 						<input
 							className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
 							id="inline-full-name"
+							value={State.name}
 							name="name"
+							onChange={handleChange}
 							type="text"
 							placeholder="Jane Doe"
 						/>
@@ -50,6 +76,8 @@ function Divider() {
 							className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
 							id="inline-full-name"
 							type="email"
+							value={State.email}
+							onChange={handleChange}
 							placeholder="JDoe@gmail.com"
 						/>
 					</div>
@@ -68,6 +96,8 @@ function Divider() {
 							type="text"
 							className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
 							placeholder="Send me a note!"
+							value={State.message}
+							onChange={handleChange}
 							rows="6"
 						></textarea>
 					</div>
@@ -85,4 +115,4 @@ function Divider() {
 		</div>
 	);
 }
-export default Divider;
+export default Contact;
