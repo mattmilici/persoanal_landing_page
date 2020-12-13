@@ -6,7 +6,9 @@ function Divider() {
 		<div id="contact" className="bg-blackm-auto">
 			<Title>Contact Me</Title>
 			<form
+				netlify-honeypot="bot-field"
 				method="POST"
+				action="POST"
 				data-netlify="true"
 				netlify
 				name="myemailform"
