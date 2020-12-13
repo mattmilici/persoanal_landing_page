@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Title from "./Title";
 
 function Contact() {
-	const [State, setState] = React.useState(false);
+	const [State, setState] = useState({ name: "", email: "", message: "" });
 
 	function encode(data) {
 		return Object.keys(data)

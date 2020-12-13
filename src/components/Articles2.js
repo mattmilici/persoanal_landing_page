@@ -112,7 +112,7 @@ function Articles2() {
 								<div className="flex-1">
 									<p className="text-sm font-medium text-indigo-600">
 										<a
-											href="https://medium.com/@mattmilici/deploying-a-localhost-server-with-node-js-and-express-js-58775f098407"
+											href="https://mattmilici.medium.com/connect-a-custom-godaddy-domain-to-your-netlify-site-758eca252cc3"
 											className="hover:underline"
 										>
 											Article
@@ -121,12 +121,11 @@ function Articles2() {
 									<a href="#" className="block mt-2">
 										<p className="text-xl font-semibold text-gray-900">
 											{" "}
-											Deploying A Localhost Server With Node.js and Express.js{" "}
+											Connect a Custom GoDaddy Domain to your Netlify Site{" "}
 										</p>
 										<p className="mt-3 text-base text-gray-500">
 											{" "}
-											Step-by-step instructions on how to set up a localhost
-											server using Node and Express.
+											Let's get that custom Domain set up with Netlify!
 										</p>
 									</a>
 								</div>
@@ -139,9 +138,9 @@ function Articles2() {
 											</a>
 										</p>
 										<div className="flex space-x-1 text-sm text-gray-500">
-											<time datetime="2020-03-16">Jun 9, 2020</time>
+											<time datetime="2020-03-16">Dec 13, 2020</time>
 											<span aria-hidden="true"> &middot; </span>
-											<span> 4 min read </span>
+											<span> 3 min read </span>
 										</div>
 									</div>
 								</div>
