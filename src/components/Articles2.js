@@ -2,6 +2,7 @@ import React from "react";
 import Title from "./Title";
 import Dennis1 from "../images/dennis1.jpeg";
 import Dennis2 from "../images/dennis2.jpeg";
+import Dennis3 from "../images/dennis3.jpeg";
 
 function Articles2() {
 	return (
@@ -106,7 +107,7 @@ function Articles2() {
 						</div>
 						<div class="flex flex-col rounded-lg shadow-lg overflow-hidden border-white border-1">
 							<div class="flex-shrink-0">
-								<img class="h-48 w-full object-cover" src={Dennis2} alt="" />
+								<img class="h-48 w-full object-cover" src={Dennis3} alt="" />
 							</div>
 							<div className="flex-1  bg-gradient-to-l from-gray-400 via-gray-350 to-gray-300 p-6 flex flex-col justify-between">
 								<div className="flex-1">

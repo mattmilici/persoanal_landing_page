@@ -13,7 +13,7 @@ import { faDatabase, faPaintRoller } from "@fortawesome/free-solid-svg-icons";
 
 function Skills() {
 	return (
-		<div id="articles" className="bg-black m-auto mx-16">
+		<div id="" className="bg-black m-auto mx-16">
 			<div>
 				<Title>Technical Skills</Title>
 				<ul class="mt-3 flex justify-center flex-wrap ">
