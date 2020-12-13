@@ -3,13 +3,13 @@ import Title from "./Title";
 
 function Divider() {
 	return (
-		<div id="contact" className="bg-black w-2/3 m-auto">
+		<div id="contact" className="bg-blackm-auto">
 			<Title>Contact Me</Title>
 			<form
 				method="post"
 				name="myemailform"
 				action=""
-				className="w-2/3 max-w-4xl mt-3 text-center m-auto"
+				className="w-full max-w-4xl mt-3 text-center m-auto"
 			>
 				<div className="">
 					<label
