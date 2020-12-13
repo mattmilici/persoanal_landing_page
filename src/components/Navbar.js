@@ -32,14 +32,14 @@ function Navbar() {
 					id="mobileDropDown"
 					className=" w-full block flex-grow lg:flex lg:items-center lg:w-auto inline"
 				>
-					<div className={navbarOpen ? "md:hidden" : "hidden"}>
-						<div className="text-sm lg:flex-grow">
-							<div className="lg:flex lg:justify-center lg:w-6/12 lg:m-auto text-lg font-normal">
+					<div className="text-sm lg:flex-grow">
+						<div className="lg:flex lg:justify-center lg:w-6/12 lg:m-auto text-lg font-normal">
+							<div className={navbarOpen ? "md:hidden" : "show "}>
 								<a
 									href="#about"
 									className="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50 "
 								>
-									About Me
+									About
 								</a>
 								<a
 									href="#projects"
@@ -61,7 +61,9 @@ function Navbar() {
 								</a>
 							</div>
 						</div>
-						<div className="lg:flex lg:justify-end items-center flex-shrink-0 text-lg font-normal">
+					</div>
+					<div className="flex justify-end flex-shrink-0 text-lg font-normal">
+						<div className={navbarOpen ? "md:hidden" : "md:show "}>
 							<a
 								href="#contact"
 								className="text-right block mt-4 lg:mr-4 lg:inline-block lg:mt-0 "
