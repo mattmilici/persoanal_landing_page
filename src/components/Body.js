@@ -19,22 +19,24 @@ function Body() {
 					className="w-full md:w-7/12 content-center self-center text-white"
 				>
 					<div className="text-left mr-3 text-lg leading-normal md:text-loose">
-						<p className="mb-2">Hey, What's up!</p>
-						<p className="mb-2">
+						<p className="mb-3">Hey, What's up!</p>
+						<p className="mb-3">
 							My name is Matt Milici and welcome to my personal site!
 						</p>
-						<p className="mb-2">
-							Currently, I am a Financial Analyst for a telecommunications
-							company based out of San Diego. I graduated from Penn State in
-							2018 with a degree in Finance and Minor in Information Science and
-							Technology. I recently started a 6 month Web Development bootcamp
-							and will be using this site to showcase my work as well as sharpen
-							my skills!
+						<p className="mb-3">
+							As you might have already read, I'm a developer, designer and
+							creator. This website was made to showcase all of what I can do.
+						</p>
+						<p className="mb-3">
+							I enjoy going beyond the basic core curriculum and have already
+							developed several websites. I am looking for a challenging,
+							creative environment at which I can be an integral part of a
+							forward thinking team.
 						</p>
 					</div>
 					<div className="animate-bounce mt-10">
 						<a
-							className="animate-bounce bg-gradient-to-l from-blue-400 via-blue-500 to-blue-500 rounded-full p-2"
+							className="animate-bounce bg-gradient-to-l from-blue-400 via-bleu-500 to-blue-500 rounded-full p-2"
 							href="./images/Matthew_B_Milici_Resume.pdf"
 							download
 						>
