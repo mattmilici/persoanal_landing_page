@@ -14,6 +14,7 @@ function Contact() {
 
 	function handleChange(e) {
 		setState({ [e.target.name]: e.target.value });
+		console.log(State);
 	}
 
 	function handleSubmit(e) {
@@ -33,8 +34,6 @@ function Contact() {
 			<Title>Contact Me</Title>
 			<form
 				onSubmit={handleSubmit}
-				data-netlify="true"
-				netlify
 				name="myemailform"
 				className="w-full max-w-4xl mt-3 text-center m-auto"
 			>
