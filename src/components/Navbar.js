@@ -11,6 +11,7 @@ function Navbar() {
 						Matt Milici
 					</span>
 				</div>
+
 				<div className="block lg:hidden">
 					<button
 						id="dropDownIcon"
@@ -32,9 +33,9 @@ function Navbar() {
 					id="mobileDropDown"
 					className=" w-full block flex-grow lg:flex lg:items-center lg:w-auto inline"
 				>
-					<div className="text-sm lg:flex-grow">
+					<div className="text-sm lg:flex-grow ">
 						<div className="lg:flex lg:justify-center lg:w-6/12 lg:m-auto text-lg font-normal">
-							<div className={navbarOpen ? "show" : "hidden"}>
+							<div className={navbarOpen ? "contents" : "hidden lg:contents"}>
 								<a
 									href="#about"
 									className="text-right block mt-4 lg:inline-block lg:mt-0 lg:mr-4 hover:text-opacity-50 "
@@ -63,7 +64,7 @@ function Navbar() {
 						</div>
 					</div>
 					<div className="flex justify-end flex-shrink-0 text-lg font-normal">
-						<div className={navbarOpen ? "show" : "hidden"}>
+						<div className={navbarOpen ? "contents" : "hidden lg:contents"}>
 							<a
 								href="#contact"
 								className="text-right block mt-4 lg:mr-4 lg:inline-block lg:mt-0 "

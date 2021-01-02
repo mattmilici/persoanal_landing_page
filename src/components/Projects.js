@@ -22,6 +22,42 @@ function Projects() {
 
 				<div className="flex flex-wrap justify-around">
 					<div className="border border-gray-300 shadow rounded-md p-4 max-w-sm w-full mx-auto m-2 bg-gradient-to-l from-gray-400 via-gray-350 to-gray-300">
+						<div className="text-black flex space-x-4">
+							<img
+								className="rounded-full border-2 border-white bg-gray-400 h-12 w-12"
+								src={Car}
+							/>
+							<div className="text-black flex-1 py-1">
+								<div className="rounded text-2xl font-bold w-3/4 top-0">
+									Pastiamo
+								</div>
+								<div className="">
+									<div className="rounded">
+										Pastiamo is an authentic Italian pasta and sauce shop
+										located in the heart of Pacific Beach. This is a must if
+										you're ever in PB.{" "}
+									</div>
+									<div className="mt-4 rounded flex justify-between">
+										<a
+											target="_blank"
+											className="text-blue-600 w-1/2 font-bold"
+											href="https://github.com/mattmilici/pastiamo"
+										>
+											Github Repo
+										</a>
+										<a
+											target="_blank"
+											className="text-blue-600 w-1/2 text-right font-bold"
+											href="https://www.pastiamosd.com/"
+										>
+											Live App
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="border border-gray-300 shadow rounded-md p-4 max-w-sm w-full mx-auto m-2 bg-gradient-to-l from-gray-400 via-gray-350 to-gray-300">
 						<div className="flex space-x-4">
 							<img
 								className="rounded-full border-2 border-white bg-gray-400 h-12 w-12"
