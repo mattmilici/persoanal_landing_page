@@ -1,5 +1,6 @@
 import React from "react";
 import AboutMe from "../images/aboutme.png";
+import pdf from "../images/Matthew_B_Milici_Resume.pdf";
 import Title from "./Title";
 
 function Body() {
@@ -33,11 +34,16 @@ function Body() {
 							creative environment at which I can be an integral part of a
 							forward thinking team.
 						</p>
+						<p className="mb-3">
+							Feel free to send me a note using the Contact Form below or by
+							emailing me at milici.m915@gmail.com
+						</p>
 					</div>
 					<div className="animate-bounce mt-10">
 						<a
 							className="animate-bounce bg-gradient-to-l from-blue-400 via-bleu-500 to-blue-500 rounded-full p-2"
-							href="./images/Matthew_B_Milici_Resume.pdf"
+							target="_blank"
+							href={pdf}
 							download
 						>
 							Download Resume
