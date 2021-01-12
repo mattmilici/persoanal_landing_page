@@ -32,6 +32,7 @@ function Contact() {
 	return (
 		<div id="contact" className="bg-blackm-auto">
 			<Title>Contact Me</Title>
+			<h1 className="text-center">milici.m915@gmail.com</h1>
 			<form
 				onSubmit={handleSubmit}
 				name="myemailform"
