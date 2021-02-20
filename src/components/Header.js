@@ -22,22 +22,7 @@ function Header() {
 					>
 						Matt Milici
 					</h1>
-					<p id="animated Text" className="text-2xl font-bold">
-						I am a{" "}
-						<Typical
-							className=" text-3xl"
-							loop={Infinity}
-							wrapper="r"
-							steps={[
-								" web developer",
-								1000,
-								" designer",
-								1000,
-								" creator",
-								1000,
-							]}
-						/>
-					</p>
+					 
 					<div className="mt-4">
 						<a
 							target="_blank"
